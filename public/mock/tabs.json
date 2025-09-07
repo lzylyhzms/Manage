@@ -1,0 +1,30 @@
+[
+  {
+    "label": "OpenAI",
+    "name": "first",
+    "docUrl": "https://platform.openai.com/docs/quickstart",
+    "code": "curl https://api.openai.com/v1/models \\\n  -H \"Authorization: Bearer $OPENAI_API_KEY\" \\\n  -H \"OpenAI-Organization: YOUR_ORG_ID\" \\\n  -H \"OpenAI-Project: $PROJECT_ID\"",
+    "info": {"id":4,"api":1205,"date":"2025-08-30","name":"apitest"}
+  },
+  {
+    "label": "Gemini",
+    "name": "second",
+    "docUrl": "https://ai.google.dev/gemini-api/docs/quickstart",
+    "code": "curl \"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent\" \\\n  -H 'Content-Type: application/json' \\\n  -H 'X-goog-api-key: GEMINI_API_KEY' \\\n  -X POST \\\n  -d '{\n    \"contents\": [\n      {\n        \"parts\": [\n          {\n            \"text\": \"Explain how AI works in a few words\"\n          }\n        ]\n      }\n    ]\n  }'",
+    "info": {"id":1,"api":1205,"date":"2025-08-30","name":"apitest"}
+  },
+  {
+    "label": "DeepSeek",
+    "name": "third",
+    "docUrl": "https://deepseek.com/docs/quickstart",
+    "code": "deepseek test",
+    "info": {"id":2,"api":1205,"date":"2025-08-30","name":"apitest"}
+  },
+  {
+    "label": "QWen",
+    "name": "fourth",
+    "docUrl": "https://qwen-docs.aliyun.com/quickstart",
+    "code": "qwen test",
+    "info": {"id":3,"api":1205,"date":"2025-08-30","name":"apitest"}
+  }
+]
