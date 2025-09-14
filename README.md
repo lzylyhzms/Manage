@@ -34,7 +34,6 @@
 ### 前端
 - [Vue 3](https://vuejs.org/) - 前端框架
 - [Element Plus](https://element-plus.org/) - UI 组件库
-- [Pinia](https://pinia.vuejs.org/) - 状态管理
 - [Axios](https://axios-http.com/) - API 请求
 
 ### 后端
